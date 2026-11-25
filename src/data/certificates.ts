@@ -12,7 +12,6 @@ export const DEFAULT_CERT_ID = '332693235404';
 export const CERTIFICATES_DB: Record<string, CertificateRecord> = {
   '332693235404': {
     name: 'ADNAN HAIDER JAUHAR ALI',
-    course: 'SHA HSFA CPR AED course',
     course: 'SHA HSFA CPR AED COURSE',
     trainingCenter: 'ALLIANCE INFINITE INSPECTION TRAINING',
     registrationId: '335906',
