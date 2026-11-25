@@ -545,6 +545,8 @@ a {
     font-size: 34px;
   }
   .cert-row {
+    flex-wrap: nowrap;
+    white-space: nowrap;
     font-size: 15px;
     margin-bottom: 16px;
   }
@@ -589,5 +591,18 @@ a {
   }
   .sha-main {
     padding: 24px 12px 56px;
+  }
+  .cert-card {
+    padding: 24px 16px;
+  }
+  .cert-card-title {
+    font-size: 28px;
+  }
+  .cert-row {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    font-size: clamp(10.5px, 3vw, 15px);
+    gap: 4px;
+    margin-bottom: 14px;
   }
 }
